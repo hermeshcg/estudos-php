@@ -73,4 +73,12 @@
   $pessoa = new Pessoa('Hermes', '20');
 
   $pessoa->printNomeIdade();
+
+  //array
+
+  $arr = ['Hermes', 'Bidu', 'Luna'];
+
+  echo $arr[0];
+
+  
 ?>
