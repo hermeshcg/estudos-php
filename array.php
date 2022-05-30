@@ -1,5 +1,7 @@
 <?php
-  $city= [
+//index de array pode ser padrão começando de zero, mas pode ser associativo (vide exemplo $city)
+
+$city= [
     'name' => 'Frankfurt',
     'country' => 'Germany',
     'population' => 785000,
