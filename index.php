@@ -3,7 +3,7 @@
   $nome = 'Hermes';
 
   //variavel de variavel
-  $Hermes = 'bla bla'
+  $Hermes = 'bla bla';
   //$nome = mostra Hermes
   //$$nome = mostra bla bla
 
@@ -33,9 +33,9 @@
   }
 
   //loop for
-  for($i = 0; $i <= 10; i++){
+  for($i = 0; $i <= 10; $i++){
     echo $i;
-    echo '<hr>'
+    echo '<hr>';
   }
 
   //loop while
@@ -43,7 +43,7 @@
 
   while($i < 10){
     echo $i;
-    echo '<hr>'
+    echo '<hr>';
     $i++;
   }
 
