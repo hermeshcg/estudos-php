@@ -1,5 +1,5 @@
 <?php
-$nome = 'Hermes'
+$nome = 'Hermes';
 
 #concatenação dessa forma com aspas simples não funciona, pois vai interpretar tudo como texto
 echo 'Meu nome é $nome';

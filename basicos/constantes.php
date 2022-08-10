@@ -9,7 +9,7 @@ define("CASADO", true);
 echo 'Meu nome é '.NOME.'\n Minha idade é '.IDADE.'\n Minha altura é '.ALTURA;
 
 define("TIMES", ['vasco', 'flamengo', 'corinthians']);
-echo '<hr>'
-echo TIMES[0]
+echo '<hr>';
+echo TIMES[0];
 
 ?>

@@ -1,13 +1,13 @@
 <?php
 //tipos de dados escalares
 //string :)
-$nome = 'string'
+$nome = 'string';
 
-var_dump($nome) #essa func mostra infos sobre a var (tipo, tamanho etc)
+var_dump($nome); #essa func mostra infos sobre a var (tipo, tamanho etc)
 if(is_string($nome)):
     echo "é string";
 else: 
-    echo "não é string"
+    echo "não é string";
 endif;
 
 echo '<hr>';
@@ -18,7 +18,7 @@ var_dump($idade);
 if(is_int($idade)):
     echo "é int";
 else: 
-    echo "não é int"
+    echo "não é int";
 endif;
 
 //float
@@ -27,7 +27,7 @@ var_dump($altura);
 if(is_float($altura)):
     echo "é float";
 else: 
-    echo "não é float"
+    echo "não é float";
 endif;
 
 //boolean
@@ -36,7 +36,7 @@ var_dump($admin);
 if(is_bool($admin)):
     echo "é boolean";
 else: 
-    echo "não é boolean"
+    echo "não é boolean";
 endif;
 
 
@@ -48,24 +48,24 @@ var_dump($carros);
 if(is_array($carros)):
     echo "é array";
 else: 
-    echo "não é array"
+    echo "não é array";
 endif;
 
 //object
-classe Cliente{
+class Cliente{
     public $nome;
     public function atribuirNome($nome){
-        $this->$nome = $nome
+        $this->$nome = $nome;
     }
 }
 
-$cliente = new Cliente()
-$cliente->atribuirNome('Hermes')
-var_dump($cliente)
+$cliente = new Cliente();
+$cliente->atribuirNome('Hermes');
+var_dump($cliente);
 if(is_object($cliente)):
     echo "é object";
 else: 
-    echo "não é object"
+    echo "não é object";
 endif;
 
 /* Compostos */

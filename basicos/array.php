@@ -30,7 +30,7 @@ $city= [
   echo $search;
 
   //array_count_values -> quantas instancias de um valor tem no array
-  $numbers = [1,1,2,2,3,3,4,4,5]
+  $numbers = [1,1,2,2,3,3,4,4,5];
   $valueCount = array_count_values($numbers);
   echo $valueCount;
 
@@ -89,16 +89,16 @@ $city= [
   $slice = array_slice($arrTwo, 2, 2);
   
   //array_range preenche um array com valores sequenciais dentro do range
-  $arrThree = range(0, 23)
+  $arrThree = range(0, 23);
 
   //array_map
   $squared = array_map(function($item){
-    return $item ** 2
+    return $item ** 2;
   }, $arrTwo);
 
   //array_filter filra
   $squaredFiltered = array_filter($squared, function($item){
-    return $item > 8
+    return $item > 8;
   });
 
   //array_combine cria multidimensional

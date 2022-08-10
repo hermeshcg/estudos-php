@@ -1,13 +1,13 @@
 <?php
 //Escopos
 #global
-$nome = 'Hermes'
+$nome = 'Hermes';
 $a = 1;
 $b = 3;
 $b = 5;
 
 function exibeNome(){
-    global $nome
+    global $nome;
     echo $nome;
 }
 
@@ -17,12 +17,12 @@ exibeNome();
 
 function exibeCidade(){
     //escopo local
-    global $cidade
+    global $cidade;
     $cidade = 'Rio de Janeiro';
 };
 
-exibeCidade()
-echo $cidade
+exibeCidade();
+echo $cidade;
 
 /*  */
 

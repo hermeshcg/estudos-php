@@ -24,9 +24,9 @@ echo "Minha altura é: $altura";
 #é case sensitive
 
 //variaveis variaveis?
-$bebida = 'refrigerante'
+$bebida = 'refrigerante';
 
-$$bebida = 'guarana'
+$$bebida = 'guarana';
 
 #esse echo vai mostrar guarana, pq fez uma troca maluca de variavel ai
 echo $refrigerante; 
