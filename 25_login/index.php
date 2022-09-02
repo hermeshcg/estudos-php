@@ -34,7 +34,7 @@ if(isset($_POST['btn-entrar'])):
     endif; 
   endif; 
 endif; 
-mysqli_close();        
+mysqli_close($connect);        
 ?>
 
 <html>

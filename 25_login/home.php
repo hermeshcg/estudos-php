@@ -13,7 +13,7 @@ $id =  $_SESSION['id_usuario'];
 $sql = "SELECT * FROM usuarios WHERE id = '$id'";
 $resultado = mysqli_query($connect, $sql);
 $dados = mysqli_fetch_array($resultado);
-mysqli_close();
+mysqli_close($connect);
 ?>
 <html>
   <head>
