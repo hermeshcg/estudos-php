@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "488912";
-$dbname = "php_crud";
+$dbname = "crud_php";
 
 $connect = mysqli_connect($servername, $username, $password, $dbname);
 
