@@ -2,7 +2,6 @@
 require_once 'db_connect.php';
 
 if(isset($_POST['btn-cadastrar'])):
-  echo "teste";
   $nome = mysqli_escape_string($connect, $_POST['nome']);
   $sobrenome = mysqli_escape_string($connect, $_POST['sobrenome']);
   $email = mysqli_escape_string($connect, $_POST['email']);
