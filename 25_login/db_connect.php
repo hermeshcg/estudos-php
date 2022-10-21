@@ -1,8 +1,8 @@
 <?php
 //conectando com o banco mano
-$servername = "localhost";
-$username = "root";
-$password = "488912";
+$servername = "";
+$username = "";
+$password = "";
 $dbname = "php_crud";
 
 $connect = mysqli_connect($servername, $username, $password, $dbname);
