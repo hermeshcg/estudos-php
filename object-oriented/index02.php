@@ -10,7 +10,8 @@ class Login {
   }
 
   public function setEmail($e){
-    $this->email = $e;
+    $email = filter_var($e, FILTER_SANITIZE_EMAIL);
+    $this->email = $email;
   }
 
   public function getSenha(){
@@ -32,7 +33,8 @@ class Login {
 
 $logar = new Login();
 $logar->setEmail("teste@teste.com");
-$logar->setSenha("1234561");
+$logar->setSenha("123456");
 $logar->Logar();
-
+echo "<br>";
+echo $logar->getEmail();
 
