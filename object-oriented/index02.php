@@ -1,31 +1,37 @@
 <?php
 /* Aula 02 */
 
-class Login {
+class Login
+{
   private $email;
   private $senha;
 
-  public function getEmail(){
+  public function getEmail()
+  {
     return $this->email;
   }
 
-  public function setEmail($e){
+  public function setEmail($e)
+  {
     $email = filter_var($e, FILTER_SANITIZE_EMAIL);
     $this->email = $email;
   }
 
-  public function getSenha(){
+  public function getSenha()
+  {
     return $this->senha;
   }
 
-  public function setSenha($e){
+  public function setSenha($e)
+  {
     $this->senha = $e;
   }
 
-  public function Logar(){
-    if($this->email == "teste@teste.com" and $this->senha == "123456"):
+  public function Logar()
+  {
+    if ($this->email == "teste@teste.com" and $this->senha == "123456") :
       echo "Logado com sucesso";
-    else:
+    else :
       echo "Dados invalidos";
     endif;
   }
@@ -37,4 +43,3 @@ $logar->setSenha("123456");
 $logar->Logar();
 echo "<br>";
 echo $logar->getEmail();
-
